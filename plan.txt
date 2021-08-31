@@ -1,0 +1,15 @@
+in user data user can uppload and veiw pdf file for job apply and job confirmation
+single user can set job seeking account or job posting account both
+in both account just they will set the name of their profile name according to company name or personal name
+
+4:In resources we will use udemy api for courses
+5:ignore the modal now use redirect to new page
+
+connect us page wil contain headless ui accordio
+
+
+love will add fvrt
+rating click will set rating
+in user data model add company name and job role
+
+
