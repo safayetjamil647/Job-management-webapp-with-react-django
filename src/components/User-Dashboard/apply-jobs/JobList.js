@@ -32,7 +32,7 @@ function JobList() {
                                 <td className="pl-4 cursor-pointer">
                                     <div className="flex items-center">
                                         <div className="w-10 h-10">
-                                            <img className="w-full h-full" alt="image" src="https://cdn.tuk.dev/assets/templates/olympus/projects.png" />
+                                            <img className="w-full h-full" alt="image" src="https://cdn.tuk.dev/assets/templates/olympus/projects.png" alt="image"  />
                                         </div>
                                         <div className="pl-4">
                                             <p className="font-medium">UX Design &amp; Visual Strategy</p>
@@ -88,7 +88,7 @@ function JobList() {
                                 <td className="pl-4 cursor-pointer">
                                     <div className="flex items-center">
                                         <div className="w-10 h-10">
-                                            <img className="w-full h-full" src="https://cdn.tuk.dev/assets/templates/olympus/projects(1).png" />
+                                            <img className="w-full h-full" src="https://cdn.tuk.dev/assets/templates/olympus/projects(1).png" alt="" />
                                         </div>
                                         <div className="pl-4">
                                             <p className="font-medium">Branding</p>
@@ -145,7 +145,7 @@ function JobList() {
                                 <td className="pl-4 cursor-pointer">
                                     <div className="flex items-center">
                                         <div className="w-10 h-10">
-                                            <img className="w-full h-full" src="https://cdn.tuk.dev/assets/templates/olympus/projects(2).png" />
+                                            <img className="w-full h-full" src="https://cdn.tuk.dev/assets/templates/olympus/projects(2).png" alt="" />
                                         </div>
                                         <div className="pl-4">
                                             <p className="font-medium">Dev Ops</p>
@@ -202,7 +202,7 @@ function JobList() {
                                 <td className="pl-4 cursor-pointer">
                                     <div className="flex items-center">
                                         <div className="w-10 h-10">
-                                            <img className="w-full h-full" src="https://cdn.tuk.dev/assets/templates/olympus/projects(3).png" />
+                                            <img className="w-full h-full" src="https://cdn.tuk.dev/assets/templates/olympus/projects(3).png" alt="" />
                                         </div>
                                         <div className="pl-4">
                                             <p className="font-medium">Backend Services</p>
@@ -259,7 +259,7 @@ function JobList() {
                                 <td className="pl-4 cursor-pointer">
                                     <div className="flex items-center">
                                         <div className="w-10 h-10">
-                                            <img className="w-full h-full" src="https://cdn.tuk.dev/assets/templates/olympus/projects(4).png" />
+                                            <img className="w-full h-full" src="https://cdn.tuk.dev/assets/templates/olympus/projects(4).png" alt="" />
                                         </div>
                                         <div className="pl-4">
                                             <p className="font-medium">UI Design</p>
@@ -316,7 +316,7 @@ function JobList() {
                                 <td className="pl-4 cursor-pointer">
                                     <div className="flex items-center">
                                         <div className="w-10 h-10">
-                                            <img className="w-full h-full" src="https://cdn.tuk.dev/assets/templates/olympus/projects(5).png" />
+                                            <img className="w-full h-full" src="https://cdn.tuk.dev/assets/templates/olympus/projects(5).png" alt="" />
                                         </div>
                                         <div className="pl-4">
                                             <p className="font-medium">UX Strategy</p>
@@ -373,7 +373,7 @@ function JobList() {
                                 <td className="pl-4 cursor-pointer">
                                     <div className="flex items-center">
                                         <div className="w-10 h-10">
-                                            <img className="w-full h-full" src="https://cdn.tuk.dev/assets/templates/olympus/projects(6).png" />
+                                            <img className="w-full h-full" src="https://cdn.tuk.dev/assets/templates/olympus/projects(6).png" alt="" />
                                         </div>
                                         <div className="pl-4">
                                             <p className="font-medium">Website Development</p>
@@ -430,7 +430,7 @@ function JobList() {
                                 <td className="pl-4 cursor-pointer">
                                     <div className="flex items-center">
                                         <div className="w-10 h-10">
-                                            <img className="w-full h-full" src="https://cdn.tuk.dev/assets/templates/olympus/projects(7).png" />
+                                            <img className="w-full h-full" src="https://cdn.tuk.dev/assets/templates/olympus/projects(7).png" alt="" />
                                         </div>
                                         <div className="pl-4">
                                             <p className="font-medium">Mobile App Development</p>
