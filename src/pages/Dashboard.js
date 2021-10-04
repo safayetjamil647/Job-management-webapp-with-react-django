@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 const Dashboard =()=>{
     return(
-        <div className="container mx-auto p-8">
+        <div className="container mx-auto p-8 mx-6">
             <div className="flex flex-wrap">
                 <div className="w-full md:w-4/12">
-                    <div className="bg-gray-500 px-6 py-6 border rounded-2xl">
+                    <div className="bg-gradient-to-r from-green-400 to-blue-500 px-6 py-6 border rounded-2xl">
                         <div className="text-2xl text-center text-white">
                             <Link to="/applied-jobs">Applied Jobs</Link>
                         </div>
@@ -14,7 +14,7 @@ const Dashboard =()=>{
                     </div>
                 </div>
                 <div className="w-full md:w-4/12">
-                <div className="bg-gray-500 px-6 py-6 border rounded-2xl">
+                <div className="bg-gradient-to-r from-green-400 to-blue-500 px-6 py-6 border rounded-2xl">
                         <div className="text-2xl text-center text-white">
                             <p>Job Posted</p>
                         </div>
@@ -24,7 +24,7 @@ const Dashboard =()=>{
                     </div>
                 </div>
                 <div className="w-full md:w-4/12">
-                <div className="bg-gray-500 px-6 py-6 border rounded-2xl">
+                <div className="bg-gradient-to-r from-green-400 to-blue-500 to-red-500 px-6 py-6 border rounded-2xl">
                         <div className="text-2xl text-center text-white">
                             <p>Interviews</p>
                         </div>
