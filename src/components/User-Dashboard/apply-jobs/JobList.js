@@ -32,7 +32,7 @@ function JobList() {
                                 <td className="pl-4 cursor-pointer">
                                     <div className="flex items-center">
                                         <div className="w-10 h-10">
-                                            <img className="w-full h-full" alt="image" src="https://cdn.tuk.dev/assets/templates/olympus/projects.png" alt="image"  />
+                                            <img className="w-full h-full" src="https://cdn.tuk.dev/assets/templates/olympus/projects.png" alt=""/>
                                         </div>
                                         <div className="pl-4">
                                             <p className="font-medium">UX Design &amp; Visual Strategy</p>

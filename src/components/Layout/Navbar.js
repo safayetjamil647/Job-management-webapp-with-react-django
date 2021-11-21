@@ -45,7 +45,7 @@ export default function Navbar() {
                           </Link>
                           <Link
                             
-                            to="#"
+                            to="/success"
                             className="text-blue-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
                           >
                             Training
