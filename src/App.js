@@ -11,6 +11,8 @@ import Success from "./pages/Success";
 import Dashboard from "./pages/Dashboard";
 import AppliedJobs from "./components/User-Dashboard/apply-jobs/Applied-Jobs";
 import JobList from "./components/User-Dashboard/apply-jobs/JobList";
+import CreateCompany from "./pages/CreateCompany";
+import PostJobsForm from "./pages/PostJobsForm";
 function App() {
   return (
     <Router>
@@ -27,6 +29,8 @@ function App() {
           <Route exact path="/user-dashboard" component={Dashboard} />
           <Route exact path="/applied-jobs" component={AppliedJobs} />
           <Route exact path="/applied-joblist" component={JobList} />
+          <Route exact path="/create-company" component={CreateCompany} />
+          <Route exact path="/post-jobs" component={PostJobsForm} />
           
         </Switch>
       </div>

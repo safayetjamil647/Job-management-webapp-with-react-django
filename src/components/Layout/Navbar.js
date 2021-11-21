@@ -9,7 +9,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <div>
+    <div className="">
       <Disclosure as="nav" className="">
         {({ open }) => (
           <>
@@ -38,7 +38,7 @@ export default function Navbar() {
                       
                           <Link
                             
-                            to=""
+                            to="/post-jobs"
                             className="text-blue-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
                           >
                             Post A Job
@@ -110,6 +110,20 @@ export default function Navbar() {
                                       )}
                                     >
                                      Dashboard
+                                    </Link>
+                                    
+                                  )}
+                                </Menu.Item>
+                                <Menu.Item >
+                                  {({ active }) => (
+                                    <Link
+                                      to="/create-company"
+                                      className={classNames(
+                                        active ? 'bg-gray-100' : '',
+                                        'block px-4 py-2 text-sm text-gray-700'
+                                      )}
+                                    >
+                                     Company
                                     </Link>
                                     
                                   )}
