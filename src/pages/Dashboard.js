@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 const Dashboard =()=>{
     return(
-        <div className="container mx-auto p-8 mx-6">
+        <div className="container mx-auto p-8">
             <div className="flex flex-wrap">
                 <div className="w-full md:w-4/12">
                     <div className="bg-gradient-to-r from-green-400 to-blue-500 px-6 py-6 border rounded-2xl">
