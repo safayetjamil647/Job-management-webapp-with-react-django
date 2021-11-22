@@ -94,7 +94,7 @@ const PostJobsForm = () => {
                 name="email"
                 type="text"
                 className="border bg-gray-100 py-2 px-4 w-full outline-none focus:ring-2 focus:ring-indigo-400 rounded"
-                placeholder="@email"
+                placeholder="Description Here"
                 onChange={formik.handleChange}
                 value={formik.values.email}
               />
@@ -104,12 +104,12 @@ const PostJobsForm = () => {
             </div>
             <div className="mb-6">
               <label className="mr-4 text-gray-700 font-bold inline-block mb-2">
-                Portfolio Url
+                Job Post Url
               </label>
               <input
                 type="text"
                 className="border bg-gray-100 py-2 px-4 w-full outline-none focus:ring-2 focus:ring-indigo-400 rounded"
-                placeholder="@github dribble behance personal project etc"
+                placeholder="your website career page link"
                 id="url"
                 name="url"
                 onChange={formik.handleChange}
@@ -149,7 +149,7 @@ const PostJobsForm = () => {
                   <input
                     type="text"
                     className="border bg-gray-100 py-2 px-4 w-full outline-none focus:ring-2 focus:ring-indigo-400 rounded"
-                    placeholder="@your stack here"
+                    placeholder="Enter Date"
                     id="stack"
                     name="stack"
                     onChange={formik.handleChange}
