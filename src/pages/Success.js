@@ -52,7 +52,7 @@ const Success = () => {
                 alt="course"
               />
             </div>
-            <p className="m-4 text-2xl text-gray-500">Ux Design</p>
+            <p className="m-4 text-2xl text-gray-500">Cyber Security</p>
             <p className="m-2 text-lg text-gray-500">
             Eridium+ is the starting point for a career in IT. The performance-based
               exams certify foundational IT skills across a variety of devices
