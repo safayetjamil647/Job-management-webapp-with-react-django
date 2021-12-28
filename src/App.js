@@ -13,6 +13,8 @@ import AppliedJobs from "./components/User-Dashboard/apply-jobs/Applied-Jobs";
 import JobList from "./components/User-Dashboard/apply-jobs/JobList";
 import CreateCompany from "./pages/CreateCompany";
 import PostJobsForm from "./pages/PostJobsForm";
+import Register from "./pages/Register"
+import Login from "./pages/Login"
 function App() {
   return (
     <Router>
@@ -31,7 +33,8 @@ function App() {
           <Route exact path="/applied-joblist" component={JobList} />
           <Route exact path="/create-company" component={CreateCompany} />
           <Route exact path="/post-jobs" component={PostJobsForm} />
-          
+          <Route exact path="/login" component={Login} />
+          <Route exact path="/register" component={Register} />
         </Switch>
       </div>
     </Router>
